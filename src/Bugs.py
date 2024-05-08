@@ -1,19 +1,21 @@
-def aggiungi_42(x):
-    number = "42"
-    total = number + x
+# Stampa il risultato di 32+10
+def stampa_42():
+    number = "32"
+    total = number + 10
     print(total)
 
 
+# Calcola il MDC di due numeri
 def calcola_mcd(a, b=42):
     while b:
         a, b = b, a % b
     print(a)
 
 
-# Stampare il risultato di 0+42
-aggiungi_42(0)
+# Stampa il risultato di 32+10
+stampa_42()
 
-# Stampare il MCD di 21 e 42
+# Stampa il MCD di 21 e 42
 calcola_mcd(2, 21, 42)
-# Stampare il MCD di 2 e 42, senza specificare il 42
+# Stampa il MCD di 2 e 42, senza specificare il 42
 calcola_mcd()

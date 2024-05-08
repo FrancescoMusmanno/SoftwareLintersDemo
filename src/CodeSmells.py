@@ -1,3 +1,4 @@
+# In base a una condizione stampa un colore
 def definisci_colore():
     condizione = True
     if condizione:
@@ -6,6 +7,7 @@ def definisci_colore():
         print("blu")
 
 
+# In base a un parametro stampa un numero
 def numero_colore(parametro):
     risultato = 0
     try:
